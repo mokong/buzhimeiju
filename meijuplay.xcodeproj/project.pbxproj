@@ -1,0 +1,1180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4812B045278B2718007B5A91 /* MeiJuSetHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812B044278B2718007B5A91 /* MeiJuSetHeaderView.swift */; };
+		4812B047278BC66E007B5A91 /* MeiJuListDBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812B046278BC66E007B5A91 /* MeiJuListDBItem.swift */; };
+		482D580A276C837C00575106 /* MeiJuSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D5809276C837C00575106 /* MeiJuSetCell.swift */; };
+		483ADFAD27746D01008A37C9 /* MeiJuSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFAC27746D01008A37C9 /* MeiJuSearchBarView.swift */; };
+		483ADFAF27746D4F008A37C9 /* MeiJuSearchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFAE27746D4F008A37C9 /* MeiJuSearchContentView.swift */; };
+		483ADFB127746E1F008A37C9 /* MeiJuSearchSuggestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFB027746E1F008A37C9 /* MeiJuSearchSuggestView.swift */; };
+		483ADFB3277472A4008A37C9 /* MeiJuSearchResItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFB2277472A4008A37C9 /* MeiJuSearchResItem.swift */; };
+		483ADFB527747FAC008A37C9 /* MeiJuSearchBarViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFB427747FAC008A37C9 /* MeiJuSearchBarViewModule.swift */; };
+		483ADFB727755FBF008A37C9 /* String_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFB627755FBF008A37C9 /* String_Extensions.swift */; };
+		483ADFB9277562F9008A37C9 /* MeiJuSearchSuggestViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFB8277562F9008A37C9 /* MeiJuSearchSuggestViewModule.swift */; };
+		483ADFBB277569C3008A37C9 /* MeiJuSearchContentViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFBA277569C3008A37C9 /* MeiJuSearchContentViewModule.swift */; };
+		483ADFC227759B78008A37C9 /* MeiJuAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFC127759B78008A37C9 /* MeiJuAboutVC.swift */; };
+		483ADFC427759B9C008A37C9 /* MeiJuAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFC327759B9C008A37C9 /* MeiJuAboutView.swift */; };
+		483ADFC627759BAA008A37C9 /* MeiJuAboutHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFC527759BAA008A37C9 /* MeiJuAboutHeaderView.swift */; };
+		483ADFC827759DEC008A37C9 /* MeiJuAboutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFC727759DEC008A37C9 /* MeiJuAboutItem.swift */; };
+		483ADFCA2775A456008A37C9 /* MeiJuAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFC92775A456008A37C9 /* MeiJuAboutCell.swift */; };
+		483ADFCC2775AB85008A37C9 /* MeiJuAboutViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFCB2775AB85008A37C9 /* MeiJuAboutViewModule.swift */; };
+		483ADFCE2775B247008A37C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483ADFCD2775B247008A37C9 /* CoreTelephony.framework */; };
+		483ADFD02775B251008A37C9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 483ADFCF2775B251008A37C9 /* libz.tbd */; };
+		483ADFD22775B25A008A37C9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 483ADFD12775B25A008A37C9 /* libsqlite3.tbd */; };
+		483ADFD42775B26A008A37C9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 483ADFD32775B26A008A37C9 /* libc++.tbd */; };
+		483ADFD62775B271008A37C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483ADFD52775B271008A37C9 /* SystemConfiguration.framework */; };
+		483ADFE62775C386008A37C9 /* MeiJuPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFE52775C386008A37C9 /* MeiJuPrivacyVC.swift */; };
+		483ADFE82775C6A7008A37C9 /* PrivacyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFE72775C6A7008A37C9 /* PrivacyAlertView.swift */; };
+		483ADFEA2775CBC3008A37C9 /* PrivacyAlertViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFE92775CBC3008A37C9 /* PrivacyAlertViewModule.swift */; };
+		483ADFED27798BC7008A37C9 /* MWDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFEC27798BC7008A37C9 /* MWDataBase.swift */; };
+		483ADFEF27798CEF008A37C9 /* MeiJuDBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFEE27798CEF008A37C9 /* MeiJuDBItem.swift */; };
+		483ADFF2277998A8008A37C9 /* MeiJuDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFF1277998A8008A37C9 /* MeiJuDB.swift */; };
+		483ADFF42779B4A2008A37C9 /* MWAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFF32779B4A2008A37C9 /* MWAPIManager.swift */; };
+		483ADFF62779B5B5008A37C9 /* MWNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFF52779B5B5008A37C9 /* MWNetworkLogger.swift */; };
+		483ADFF82779B7B7008A37C9 /* MWRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFF72779B7B7008A37C9 /* MWRequestInterceptor.swift */; };
+		483ADFFA2779BA7F008A37C9 /* MWNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFF92779BA7F008A37C9 /* MWNetworkReachability.swift */; };
+		483ADFFC2779BFBB008A37C9 /* MeiJuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFFB2779BFBB008A37C9 /* MeiJuRouter.swift */; };
+		483ADFFE2779C1E9008A37C9 /* MeiJuAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ADFFD2779C1E9008A37C9 /* MeiJuAPIManager.swift */; };
+		48765B0727674CCD00057A1A /* MeiJuHomeCircleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48765B0627674CCC00057A1A /* MeiJuHomeCircleHeader.swift */; };
+		48765B0A2767520700057A1A /* MeiJuHomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48765B092767520700057A1A /* MeiJuHomeModule.swift */; };
+		48A0B6FE27C86A50001B81F1 /* MWDevOtherAppsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0B6FD27C86A50001B81F1 /* MWDevOtherAppsVC.swift */; };
+		48A0B70027C86A63001B81F1 /* MWDevOtherAppsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0B6FF27C86A63001B81F1 /* MWDevOtherAppsModule.swift */; };
+		48A0B70227C86A79001B81F1 /* MWDevOtherAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0B70127C86A79001B81F1 /* MWDevOtherAppsView.swift */; };
+		48A0B70427C86A89001B81F1 /* MWDevOtherAppsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0B70327C86A89001B81F1 /* MWDevOtherAppsCell.swift */; };
+		48A0B70627C86C6D001B81F1 /* MWDevOtherAppsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0B70527C86C6D001B81F1 /* MWDevOtherAppsItem.swift */; };
+		48B83F04276B05E6008C889D /* MWPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F03276B05E6008C889D /* MWPlayerVC.swift */; };
+		48B83F07276B1F3A008C889D /* MWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F06276B1F3A008C889D /* MWNavigationController.swift */; };
+		48B83F0A276B2027008C889D /* MWPlayerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F09276B2027008C889D /* MWPlayerUtil.swift */; };
+		48B83F0D276B2064008C889D /* MeiJuMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F0C276B2064008C889D /* MeiJuMediaItem.swift */; };
+		48B83F11276B49BC008C889D /* MeiJuSetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F10276B49BC008C889D /* MeiJuSetController.swift */; };
+		48B83F14276B49DA008C889D /* MeiJuSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F13276B49DA008C889D /* MeiJuSetView.swift */; };
+		48B83F17276B49F0008C889D /* MeiJuSetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F16276B49F0008C889D /* MeiJuSetModule.swift */; };
+		48B83F1A276B4A29008C889D /* MeiJuSetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83F19276B4A29008C889D /* MeiJuSetItem.swift */; };
+		48C0E3D127842D4D00884931 /* MWPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C0E3D027842D4D00884931 /* MWPlayer.swift */; };
+		48C8E6872770769B009333A5 /* MeiJuListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6862770769B009333A5 /* MeiJuListVC.swift */; };
+		48C8E689277076A6009333A5 /* MeiJuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E688277076A6009333A5 /* MeiJuListView.swift */; };
+		48C8E68B2770776E009333A5 /* MeiJuListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E68A2770776E009333A5 /* MeiJuListModule.swift */; };
+		48C8E68D2771CD6F009333A5 /* MeiJuListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E68C2771CD6F009333A5 /* MeiJuListHeaderView.swift */; };
+		48C8E6922771D138009333A5 /* MeiJuLeftFuncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6912771D138009333A5 /* MeiJuLeftFuncView.swift */; };
+		48C8E6952771D5CD009333A5 /* MeiJuFuncItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6942771D5CD009333A5 /* MeiJuFuncItem.swift */; };
+		48C8E6972771D775009333A5 /* MeiJuLeftFuncCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6962771D775009333A5 /* MeiJuLeftFuncCell.swift */; };
+		48C8E69B2771E467009333A5 /* MeiJuLeftFunModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E69A2771E467009333A5 /* MeiJuLeftFunModule.swift */; };
+		48C8E69D2772BD9D009333A5 /* UIViewController_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E69C2772BD9D009333A5 /* UIViewController_Extensions.swift */; };
+		48C8E69F2772C5C1009333A5 /* MeiJuListCustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E69E2772C5C1009333A5 /* MeiJuListCustomNavView.swift */; };
+		48C8E6A1277314E8009333A5 /* MeiJuEpisodeSeasonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6A0277314E8009333A5 /* MeiJuEpisodeSeasonVC.swift */; };
+		48C8E6A527731599009333A5 /* MeiJuEpisodeSeasonModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6A427731599009333A5 /* MeiJuEpisodeSeasonModule.swift */; };
+		48C8E6A7277315B9009333A5 /* MeiJuEpisodeSeasonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6A6277315B9009333A5 /* MeiJuEpisodeSeasonItem.swift */; };
+		48C8E6A927732224009333A5 /* EpisodeSeasonSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6A827732224009333A5 /* EpisodeSeasonSubview.swift */; };
+		48C8E6AB277413A0009333A5 /* MeiJuEpisodePlayModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6AA277413A0009333A5 /* MeiJuEpisodePlayModule.swift */; };
+		48C8E6AD27741D9C009333A5 /* EpisodeSeasonPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8E6AC27741D9C009333A5 /* EpisodeSeasonPlayView.swift */; };
+		48D0BD5B275F533400F6FFB9 /* MeiJuRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD5A275F533400F6FFB9 /* MeiJuRequest.swift */; };
+		48D0BD62275F5BAD00F6FFB9 /* MeiJuHomeResItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD61275F5BAD00F6FFB9 /* MeiJuHomeResItem.swift */; };
+		48D0BD64275F609200F6FFB9 /* MeiJuHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD63275F609200F6FFB9 /* MeiJuHomeCell.swift */; };
+		48D0BD66275F60D400F6FFB9 /* MeiJuHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD65275F60D400F6FFB9 /* MeiJuHomeHeaderView.swift */; };
+		48D0BD7E276092E500F6FFB9 /* UIKit_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD7D276092E400F6FFB9 /* UIKit_Extensions.swift */; };
+		48D0BD81276094AF00F6FFB9 /* ProjectConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD80276094AE00F6FFB9 /* ProjectConsts.swift */; };
+		48D0BD8327609D7F00F6FFB9 /* MeiJuHomeSingleCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD8227609D7F00F6FFB9 /* MeiJuHomeSingleCircleView.swift */; };
+		48D0BD8527609F4B00F6FFB9 /* UIFont_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD8427609F4B00F6FFB9 /* UIFont_Extensions.swift */; };
+		48D0BD872760A1EF00F6FFB9 /* UIColor_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0BD862760A1EF00F6FFB9 /* UIColor_Extensions.swift */; };
+		48F3D733277EE61E00CBBE28 /* MWPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3D732277EE61E00CBBE28 /* MWPlayerView.swift */; };
+		48F3D736277EE99500CBBE28 /* MWPlayerViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3D735277EE99500CBBE28 /* MWPlayerViewModule.swift */; };
+		A2B09C00245DD0EC197695AE /* Pods_meijuplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5B3416A741198C1DB7C7DB /* Pods_meijuplay.framework */; };
+		D85010FB2753172600222F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85010FA2753172600222F73 /* AppDelegate.swift */; };
+		D85011042753172900222F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85011032753172900222F73 /* Assets.xcassets */; };
+		D85011072753172900222F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85011052753172900222F73 /* LaunchScreen.storyboard */; };
+		D85011122753262200222F73 /* MWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85011112753262200222F73 /* MWBaseViewController.swift */; };
+		D8501120275326C500222F73 /* MeiJuHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850111F275326C500222F73 /* MeiJuHomeVC.swift */; };
+		D85011282753421600222F73 /* MeiJuHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85011272753421600222F73 /* MeiJuHomeView.swift */; };
+		D850112C2753440000222F73 /* MeiJuMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850112B2753440000222F73 /* MeiJuMineVC.swift */; };
+		D850112E2753449600222F73 /* MeiJuHotSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850112D2753449600222F73 /* MeiJuHotSearchVC.swift */; };
+		D8501134275344D900222F73 /* MeiJuSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8501133275344D900222F73 /* MeiJuSearchVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B5B3416A741198C1DB7C7DB /* Pods_meijuplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meijuplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4812B044278B2718007B5A91 /* MeiJuSetHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSetHeaderView.swift; sourceTree = "<group>"; };
+		4812B046278BC66E007B5A91 /* MeiJuListDBItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuListDBItem.swift; sourceTree = "<group>"; };
+		482D5809276C837C00575106 /* MeiJuSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSetCell.swift; sourceTree = "<group>"; };
+		483ADFAC27746D01008A37C9 /* MeiJuSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchBarView.swift; sourceTree = "<group>"; };
+		483ADFAE27746D4F008A37C9 /* MeiJuSearchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchContentView.swift; sourceTree = "<group>"; };
+		483ADFB027746E1F008A37C9 /* MeiJuSearchSuggestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchSuggestView.swift; sourceTree = "<group>"; };
+		483ADFB2277472A4008A37C9 /* MeiJuSearchResItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchResItem.swift; sourceTree = "<group>"; };
+		483ADFB427747FAC008A37C9 /* MeiJuSearchBarViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchBarViewModule.swift; sourceTree = "<group>"; };
+		483ADFB627755FBF008A37C9 /* String_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extensions.swift; sourceTree = "<group>"; };
+		483ADFB8277562F9008A37C9 /* MeiJuSearchSuggestViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchSuggestViewModule.swift; sourceTree = "<group>"; };
+		483ADFBA277569C3008A37C9 /* MeiJuSearchContentViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchContentViewModule.swift; sourceTree = "<group>"; };
+		483ADFC127759B78008A37C9 /* MeiJuAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAboutVC.swift; sourceTree = "<group>"; };
+		483ADFC327759B9C008A37C9 /* MeiJuAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAboutView.swift; sourceTree = "<group>"; };
+		483ADFC527759BAA008A37C9 /* MeiJuAboutHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAboutHeaderView.swift; sourceTree = "<group>"; };
+		483ADFC727759DEC008A37C9 /* MeiJuAboutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAboutItem.swift; sourceTree = "<group>"; };
+		483ADFC92775A456008A37C9 /* MeiJuAboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAboutCell.swift; sourceTree = "<group>"; };
+		483ADFCB2775AB85008A37C9 /* MeiJuAboutViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAboutViewModule.swift; sourceTree = "<group>"; };
+		483ADFCD2775B247008A37C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		483ADFCF2775B251008A37C9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		483ADFD12775B25A008A37C9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		483ADFD32775B26A008A37C9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		483ADFD52775B271008A37C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		483ADFE52775C386008A37C9 /* MeiJuPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuPrivacyVC.swift; sourceTree = "<group>"; };
+		483ADFE72775C6A7008A37C9 /* PrivacyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAlertView.swift; sourceTree = "<group>"; };
+		483ADFE92775CBC3008A37C9 /* PrivacyAlertViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAlertViewModule.swift; sourceTree = "<group>"; };
+		483ADFEC27798BC7008A37C9 /* MWDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDataBase.swift; sourceTree = "<group>"; };
+		483ADFEE27798CEF008A37C9 /* MeiJuDBItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuDBItem.swift; sourceTree = "<group>"; };
+		483ADFF1277998A8008A37C9 /* MeiJuDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuDB.swift; sourceTree = "<group>"; };
+		483ADFF32779B4A2008A37C9 /* MWAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWAPIManager.swift; sourceTree = "<group>"; };
+		483ADFF52779B5B5008A37C9 /* MWNetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetworkLogger.swift; sourceTree = "<group>"; };
+		483ADFF72779B7B7008A37C9 /* MWRequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWRequestInterceptor.swift; sourceTree = "<group>"; };
+		483ADFF92779BA7F008A37C9 /* MWNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetworkReachability.swift; sourceTree = "<group>"; };
+		483ADFFB2779BFBB008A37C9 /* MeiJuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuRouter.swift; sourceTree = "<group>"; };
+		483ADFFD2779C1E9008A37C9 /* MeiJuAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuAPIManager.swift; sourceTree = "<group>"; };
+		48765B0627674CCC00057A1A /* MeiJuHomeCircleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeCircleHeader.swift; sourceTree = "<group>"; };
+		48765B092767520700057A1A /* MeiJuHomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeModule.swift; sourceTree = "<group>"; };
+		48A0B6FD27C86A50001B81F1 /* MWDevOtherAppsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDevOtherAppsVC.swift; sourceTree = "<group>"; };
+		48A0B6FF27C86A63001B81F1 /* MWDevOtherAppsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDevOtherAppsModule.swift; sourceTree = "<group>"; };
+		48A0B70127C86A79001B81F1 /* MWDevOtherAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDevOtherAppsView.swift; sourceTree = "<group>"; };
+		48A0B70327C86A89001B81F1 /* MWDevOtherAppsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDevOtherAppsCell.swift; sourceTree = "<group>"; };
+		48A0B70527C86C6D001B81F1 /* MWDevOtherAppsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWDevOtherAppsItem.swift; sourceTree = "<group>"; };
+		48B83F03276B05E6008C889D /* MWPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWPlayerVC.swift; sourceTree = "<group>"; };
+		48B83F06276B1F3A008C889D /* MWNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNavigationController.swift; sourceTree = "<group>"; };
+		48B83F09276B2027008C889D /* MWPlayerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWPlayerUtil.swift; sourceTree = "<group>"; };
+		48B83F0C276B2064008C889D /* MeiJuMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuMediaItem.swift; sourceTree = "<group>"; };
+		48B83F10276B49BC008C889D /* MeiJuSetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSetController.swift; sourceTree = "<group>"; };
+		48B83F13276B49DA008C889D /* MeiJuSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSetView.swift; sourceTree = "<group>"; };
+		48B83F16276B49F0008C889D /* MeiJuSetModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSetModule.swift; sourceTree = "<group>"; };
+		48B83F19276B4A29008C889D /* MeiJuSetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSetItem.swift; sourceTree = "<group>"; };
+		48C0E3D027842D4D00884931 /* MWPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWPlayer.swift; sourceTree = "<group>"; };
+		48C8E6862770769B009333A5 /* MeiJuListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuListVC.swift; sourceTree = "<group>"; };
+		48C8E688277076A6009333A5 /* MeiJuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuListView.swift; sourceTree = "<group>"; };
+		48C8E68A2770776E009333A5 /* MeiJuListModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuListModule.swift; sourceTree = "<group>"; };
+		48C8E68C2771CD6F009333A5 /* MeiJuListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuListHeaderView.swift; sourceTree = "<group>"; };
+		48C8E6912771D138009333A5 /* MeiJuLeftFuncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuLeftFuncView.swift; sourceTree = "<group>"; };
+		48C8E6942771D5CD009333A5 /* MeiJuFuncItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuFuncItem.swift; sourceTree = "<group>"; };
+		48C8E6962771D775009333A5 /* MeiJuLeftFuncCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuLeftFuncCell.swift; sourceTree = "<group>"; };
+		48C8E69A2771E467009333A5 /* MeiJuLeftFunModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuLeftFunModule.swift; sourceTree = "<group>"; };
+		48C8E69C2772BD9D009333A5 /* UIViewController_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extensions.swift; sourceTree = "<group>"; };
+		48C8E69E2772C5C1009333A5 /* MeiJuListCustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuListCustomNavView.swift; sourceTree = "<group>"; };
+		48C8E6A0277314E8009333A5 /* MeiJuEpisodeSeasonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuEpisodeSeasonVC.swift; sourceTree = "<group>"; };
+		48C8E6A427731599009333A5 /* MeiJuEpisodeSeasonModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuEpisodeSeasonModule.swift; sourceTree = "<group>"; };
+		48C8E6A6277315B9009333A5 /* MeiJuEpisodeSeasonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuEpisodeSeasonItem.swift; sourceTree = "<group>"; };
+		48C8E6A827732224009333A5 /* EpisodeSeasonSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeSeasonSubview.swift; sourceTree = "<group>"; };
+		48C8E6AA277413A0009333A5 /* MeiJuEpisodePlayModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuEpisodePlayModule.swift; sourceTree = "<group>"; };
+		48C8E6AC27741D9C009333A5 /* EpisodeSeasonPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeSeasonPlayView.swift; sourceTree = "<group>"; };
+		48D0BD5A275F533400F6FFB9 /* MeiJuRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuRequest.swift; sourceTree = "<group>"; };
+		48D0BD61275F5BAD00F6FFB9 /* MeiJuHomeResItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeResItem.swift; sourceTree = "<group>"; };
+		48D0BD63275F609200F6FFB9 /* MeiJuHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeCell.swift; sourceTree = "<group>"; };
+		48D0BD65275F60D400F6FFB9 /* MeiJuHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeHeaderView.swift; sourceTree = "<group>"; };
+		48D0BD7D276092E400F6FFB9 /* UIKit_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_Extensions.swift; sourceTree = "<group>"; };
+		48D0BD80276094AE00F6FFB9 /* ProjectConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectConsts.swift; sourceTree = "<group>"; };
+		48D0BD8227609D7F00F6FFB9 /* MeiJuHomeSingleCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeSingleCircleView.swift; sourceTree = "<group>"; };
+		48D0BD8427609F4B00F6FFB9 /* UIFont_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont_Extensions.swift; sourceTree = "<group>"; };
+		48D0BD862760A1EF00F6FFB9 /* UIColor_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extensions.swift; sourceTree = "<group>"; };
+		48F3D732277EE61E00CBBE28 /* MWPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWPlayerView.swift; sourceTree = "<group>"; };
+		48F3D735277EE99500CBBE28 /* MWPlayerViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWPlayerViewModule.swift; sourceTree = "<group>"; };
+		AD3E660BAFA8D7D48F835E9A /* Pods-meijuplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meijuplay.release.xcconfig"; path = "Target Support Files/Pods-meijuplay/Pods-meijuplay.release.xcconfig"; sourceTree = "<group>"; };
+		D32293E6EF82BFB0C2A119C4 /* Pods-meijuplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meijuplay.debug.xcconfig"; path = "Target Support Files/Pods-meijuplay/Pods-meijuplay.debug.xcconfig"; sourceTree = "<group>"; };
+		D85010F72753172600222F73 /* meijuplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meijuplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85010FA2753172600222F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85011032753172900222F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85011062753172900222F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85011082753172900222F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85011112753262200222F73 /* MWBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWBaseViewController.swift; sourceTree = "<group>"; };
+		D850111F275326C500222F73 /* MeiJuHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeVC.swift; sourceTree = "<group>"; };
+		D85011272753421600222F73 /* MeiJuHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHomeView.swift; sourceTree = "<group>"; };
+		D850112B2753440000222F73 /* MeiJuMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuMineVC.swift; sourceTree = "<group>"; };
+		D850112D2753449600222F73 /* MeiJuHotSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuHotSearchVC.swift; sourceTree = "<group>"; };
+		D8501133275344D900222F73 /* MeiJuSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiJuSearchVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85010F42753172600222F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483ADFD62775B271008A37C9 /* SystemConfiguration.framework in Frameworks */,
+				483ADFD42775B26A008A37C9 /* libc++.tbd in Frameworks */,
+				483ADFD22775B25A008A37C9 /* libsqlite3.tbd in Frameworks */,
+				483ADFD02775B251008A37C9 /* libz.tbd in Frameworks */,
+				483ADFCE2775B247008A37C9 /* CoreTelephony.framework in Frameworks */,
+				A2B09C00245DD0EC197695AE /* Pods_meijuplay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483ADFBC27759A70008A37C9 /* 关于 */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFC027759B54008A37C9 /* Controller */,
+				483ADFBF27759B47008A37C9 /* Model */,
+				483ADFBE27759B41008A37C9 /* Module */,
+				483ADFBD27759B3C008A37C9 /* View */,
+			);
+			path = "关于";
+			sourceTree = "<group>";
+		};
+		483ADFBD27759B3C008A37C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFC327759B9C008A37C9 /* MeiJuAboutView.swift */,
+				483ADFC527759BAA008A37C9 /* MeiJuAboutHeaderView.swift */,
+				483ADFC92775A456008A37C9 /* MeiJuAboutCell.swift */,
+				483ADFE72775C6A7008A37C9 /* PrivacyAlertView.swift */,
+				48A0B70127C86A79001B81F1 /* MWDevOtherAppsView.swift */,
+				48A0B70327C86A89001B81F1 /* MWDevOtherAppsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		483ADFBE27759B41008A37C9 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFCB2775AB85008A37C9 /* MeiJuAboutViewModule.swift */,
+				483ADFE92775CBC3008A37C9 /* PrivacyAlertViewModule.swift */,
+				48A0B6FF27C86A63001B81F1 /* MWDevOtherAppsModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		483ADFBF27759B47008A37C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFC727759DEC008A37C9 /* MeiJuAboutItem.swift */,
+				48A0B70527C86C6D001B81F1 /* MWDevOtherAppsItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		483ADFC027759B54008A37C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFC127759B78008A37C9 /* MeiJuAboutVC.swift */,
+				483ADFE52775C386008A37C9 /* MeiJuPrivacyVC.swift */,
+				48A0B6FD27C86A50001B81F1 /* MWDevOtherAppsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		483ADFEB27798B96008A37C9 /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFF02779988B008A37C9 /* 通用 */,
+				483ADFEE27798CEF008A37C9 /* MeiJuDBItem.swift */,
+				4812B046278BC66E007B5A91 /* MeiJuListDBItem.swift */,
+				483ADFF1277998A8008A37C9 /* MeiJuDB.swift */,
+			);
+			path = "数据库";
+			sourceTree = "<group>";
+		};
+		483ADFF02779988B008A37C9 /* 通用 */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFEC27798BC7008A37C9 /* MWDataBase.swift */,
+			);
+			path = "通用";
+			sourceTree = "<group>";
+		};
+		48765B08276751F200057A1A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				48765B092767520700057A1A /* MeiJuHomeModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		48B83EFC276AE25C008C889D /* 剧集 */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F00276AE284008C889D /* Module */,
+				48B83EFF276AE27E008C889D /* Model */,
+				48B83EFE276AE276008C889D /* View */,
+				48B83EFD276AE26F008C889D /* Controller */,
+			);
+			path = "剧集";
+			sourceTree = "<group>";
+		};
+		48B83EFD276AE26F008C889D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6A0277314E8009333A5 /* MeiJuEpisodeSeasonVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48B83EFE276AE276008C889D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6AC27741D9C009333A5 /* EpisodeSeasonPlayView.swift */,
+				48C8E6A827732224009333A5 /* EpisodeSeasonSubview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48B83EFF276AE27E008C889D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6A6277315B9009333A5 /* MeiJuEpisodeSeasonItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48B83F00276AE284008C889D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6AA277413A0009333A5 /* MeiJuEpisodePlayModule.swift */,
+				48C8E6A427731599009333A5 /* MeiJuEpisodeSeasonModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		48B83F01276B059F008C889D /* 播放页 */ = {
+			isa = PBXGroup;
+			children = (
+				48F3D734277EE98500CBBE28 /* Module */,
+				48F3D731277EE5E000CBBE28 /* View */,
+				48B83F0B276B2054008C889D /* Model */,
+				48B83F08276B200E008C889D /* Util */,
+				48B83F02276B05A7008C889D /* Controller */,
+			);
+			path = "播放页";
+			sourceTree = "<group>";
+		};
+		48B83F02276B05A7008C889D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F03276B05E6008C889D /* MWPlayerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48B83F08276B200E008C889D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F09276B2027008C889D /* MWPlayerUtil.swift */,
+				48C0E3D027842D4D00884931 /* MWPlayer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		48B83F0B276B2054008C889D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F0C276B2064008C889D /* MeiJuMediaItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48B83F0E276B4991008C889D /* 设置页面 */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F18276B4A1E008C889D /* Model */,
+				48B83F15276B49E1008C889D /* Module */,
+				48B83F12276B49CC008C889D /* View */,
+				48B83F0F276B499A008C889D /* Controller */,
+			);
+			path = "设置页面";
+			sourceTree = "<group>";
+		};
+		48B83F0F276B499A008C889D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F10276B49BC008C889D /* MeiJuSetController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48B83F12276B49CC008C889D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F13276B49DA008C889D /* MeiJuSetView.swift */,
+				482D5809276C837C00575106 /* MeiJuSetCell.swift */,
+				4812B044278B2718007B5A91 /* MeiJuSetHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48B83F15276B49E1008C889D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F16276B49F0008C889D /* MeiJuSetModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		48B83F18276B4A1E008C889D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48B83F19276B4A29008C889D /* MeiJuSetItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48C8E67D277072F6009333A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFAC27746D01008A37C9 /* MeiJuSearchBarView.swift */,
+				483ADFB027746E1F008A37C9 /* MeiJuSearchSuggestView.swift */,
+				483ADFAE27746D4F008A37C9 /* MeiJuSearchContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48C8E67E277072FC009333A5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFB427747FAC008A37C9 /* MeiJuSearchBarViewModule.swift */,
+				483ADFB8277562F9008A37C9 /* MeiJuSearchSuggestViewModule.swift */,
+				483ADFBA277569C3008A37C9 /* MeiJuSearchContentViewModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		48C8E68027707311009333A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFB2277472A4008A37C9 /* MeiJuSearchResItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48C8E68127707641009333A5 /* 列表页 */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E68527707660009333A5 /* Module */,
+				48C8E6842770765A009333A5 /* Model */,
+				48C8E68327707651009333A5 /* Controller */,
+				48C8E6822770764B009333A5 /* View */,
+			);
+			path = "列表页";
+			sourceTree = "<group>";
+		};
+		48C8E6822770764B009333A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E688277076A6009333A5 /* MeiJuListView.swift */,
+				48C8E68C2771CD6F009333A5 /* MeiJuListHeaderView.swift */,
+				48C8E69E2772C5C1009333A5 /* MeiJuListCustomNavView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48C8E68327707651009333A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6862770769B009333A5 /* MeiJuListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48C8E6842770765A009333A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48C8E68527707660009333A5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E68A2770776E009333A5 /* MeiJuListModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		48C8E68E2771D0C9009333A5 /* 侧边切换页 */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6932771D5A8009333A5 /* Model */,
+				48C8E6902771D0EF009333A5 /* Module */,
+				48C8E68F2771D0E9009333A5 /* View */,
+			);
+			path = "侧边切换页";
+			sourceTree = "<group>";
+		};
+		48C8E68F2771D0E9009333A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6912771D138009333A5 /* MeiJuLeftFuncView.swift */,
+				48C8E6962771D775009333A5 /* MeiJuLeftFuncCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48C8E6902771D0EF009333A5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E69A2771E467009333A5 /* MeiJuLeftFunModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		48C8E6932771D5A8009333A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E6942771D5CD009333A5 /* MeiJuFuncItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48D0BD59275F530300F6FFB9 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				48D0BD5A275F533400F6FFB9 /* MeiJuRequest.swift */,
+				483ADFFB2779BFBB008A37C9 /* MeiJuRouter.swift */,
+				483ADFFD2779C1E9008A37C9 /* MeiJuAPIManager.swift */,
+				483ADFF32779B4A2008A37C9 /* MWAPIManager.swift */,
+				483ADFF52779B5B5008A37C9 /* MWNetworkLogger.swift */,
+				483ADFF72779B7B7008A37C9 /* MWRequestInterceptor.swift */,
+				483ADFF92779BA7F008A37C9 /* MWNetworkReachability.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		48D0BD5F275F5B8700F6FFB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48D0BD61275F5BAD00F6FFB9 /* MeiJuHomeResItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48D0BD7B276092C800F6FFB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				48D0BD7F2760949900F6FFB9 /* Const */,
+				48D0BD7C276092D100F6FFB9 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		48D0BD7C276092D100F6FFB9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48D0BD7D276092E400F6FFB9 /* UIKit_Extensions.swift */,
+				48D0BD8427609F4B00F6FFB9 /* UIFont_Extensions.swift */,
+				48D0BD862760A1EF00F6FFB9 /* UIColor_Extensions.swift */,
+				48C8E69C2772BD9D009333A5 /* UIViewController_Extensions.swift */,
+				483ADFB627755FBF008A37C9 /* String_Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		48D0BD7F2760949900F6FFB9 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				48D0BD80276094AE00F6FFB9 /* ProjectConsts.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		48F3D731277EE5E000CBBE28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48F3D732277EE61E00CBBE28 /* MWPlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48F3D734277EE98500CBBE28 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				48F3D735277EE99500CBBE28 /* MWPlayerViewModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		606B9052C4B29CF78341565F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32293E6EF82BFB0C2A119C4 /* Pods-meijuplay.debug.xcconfig */,
+				AD3E660BAFA8D7D48F835E9A /* Pods-meijuplay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4D07F75BD46BD9EAB88557B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFD52775B271008A37C9 /* SystemConfiguration.framework */,
+				483ADFD32775B26A008A37C9 /* libc++.tbd */,
+				483ADFD12775B25A008A37C9 /* libsqlite3.tbd */,
+				483ADFCF2775B251008A37C9 /* libz.tbd */,
+				483ADFCD2775B247008A37C9 /* CoreTelephony.framework */,
+				1B5B3416A741198C1DB7C7DB /* Pods_meijuplay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D85010EE2753172600222F73 = {
+			isa = PBXGroup;
+			children = (
+				D85010F92753172600222F73 /* meijuplay */,
+				D85010F82753172600222F73 /* Products */,
+				606B9052C4B29CF78341565F /* Pods */,
+				D4D07F75BD46BD9EAB88557B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D85010F82753172600222F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85010F72753172600222F73 /* meijuplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85010F92753172600222F73 /* meijuplay */ = {
+			isa = PBXGroup;
+			children = (
+				483ADFEB27798B96008A37C9 /* 数据库 */,
+				483ADFBC27759A70008A37C9 /* 关于 */,
+				48C8E68E2771D0C9009333A5 /* 侧边切换页 */,
+				48C8E68127707641009333A5 /* 列表页 */,
+				48B83F0E276B4991008C889D /* 设置页面 */,
+				48B83F01276B059F008C889D /* 播放页 */,
+				48B83EFC276AE25C008C889D /* 剧集 */,
+				48D0BD7B276092C800F6FFB9 /* Common */,
+				48D0BD59275F530300F6FFB9 /* Request */,
+				D850112F275344B600222F73 /* 搜索页 */,
+				D85011152753267100222F73 /* 我的 */,
+				D85011142753266B00222F73 /* 热搜页 */,
+				D85011132753265E00222F73 /* 首页 */,
+				D850110E275325EF00222F73 /* Base */,
+				D85010FA2753172600222F73 /* AppDelegate.swift */,
+				D85011032753172900222F73 /* Assets.xcassets */,
+				D85011052753172900222F73 /* LaunchScreen.storyboard */,
+				D85011082753172900222F73 /* Info.plist */,
+			);
+			path = meijuplay;
+			sourceTree = "<group>";
+		};
+		D850110E275325EF00222F73 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D85011112753262200222F73 /* MWBaseViewController.swift */,
+				48B83F06276B1F3A008C889D /* MWNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D85011132753265E00222F73 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				48765B08276751F200057A1A /* Module */,
+				48D0BD5F275F5B8700F6FFB9 /* Model */,
+				D85011172753267F00222F73 /* View */,
+				D85011162753267800222F73 /* Controller */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D85011142753266B00222F73 /* 热搜页 */ = {
+			isa = PBXGroup;
+			children = (
+				D850111B2753269800222F73 /* Model */,
+				D850111A2753269300222F73 /* View */,
+				D85011192753268D00222F73 /* Controller */,
+			);
+			path = "热搜页";
+			sourceTree = "<group>";
+		};
+		D85011152753267100222F73 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				D850111E275326AC00222F73 /* Model */,
+				D850111D275326A700222F73 /* View */,
+				D850111C2753269E00222F73 /* Controller */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		D85011162753267800222F73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D850111F275326C500222F73 /* MeiJuHomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D85011172753267F00222F73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D85011272753421600222F73 /* MeiJuHomeView.swift */,
+				48D0BD63275F609200F6FFB9 /* MeiJuHomeCell.swift */,
+				48D0BD65275F60D400F6FFB9 /* MeiJuHomeHeaderView.swift */,
+				48D0BD8227609D7F00F6FFB9 /* MeiJuHomeSingleCircleView.swift */,
+				48765B0627674CCC00057A1A /* MeiJuHomeCircleHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D85011192753268D00222F73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D850112D2753449600222F73 /* MeiJuHotSearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D850111A2753269300222F73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D850111B2753269800222F73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D850111C2753269E00222F73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D850112B2753440000222F73 /* MeiJuMineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D850111D275326A700222F73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D850111E275326AC00222F73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D850112F275344B600222F73 /* 搜索页 */ = {
+			isa = PBXGroup;
+			children = (
+				48C8E68027707311009333A5 /* Model */,
+				48C8E67E277072FC009333A5 /* Module */,
+				48C8E67D277072F6009333A5 /* View */,
+				D8501132275344C900222F73 /* Controller */,
+			);
+			path = "搜索页";
+			sourceTree = "<group>";
+		};
+		D8501132275344C900222F73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8501133275344D900222F73 /* MeiJuSearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85010F62753172600222F73 /* meijuplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D850110B2753172900222F73 /* Build configuration list for PBXNativeTarget "meijuplay" */;
+			buildPhases = (
+				68B1295D6F837DBC5CBCF391 /* [CP] Check Pods Manifest.lock */,
+				D85010F32753172600222F73 /* Sources */,
+				D85010F42753172600222F73 /* Frameworks */,
+				D85010F52753172600222F73 /* Resources */,
+				8A98DE4BDE84BC500A4415FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meijuplay;
+			productName = meijuplay;
+			productReference = D85010F72753172600222F73 /* meijuplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85010EF2753172600222F73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D85010F62753172600222F73 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = D85010F22753172600222F73 /* Build configuration list for PBXProject "meijuplay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85010EE2753172600222F73;
+			productRefGroup = D85010F82753172600222F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85010F62753172600222F73 /* meijuplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85010F52753172600222F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85011072753172900222F73 /* LaunchScreen.storyboard in Resources */,
+				D85011042753172900222F73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68B1295D6F837DBC5CBCF391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meijuplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A98DE4BDE84BC500A4415FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meijuplay/Pods-meijuplay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meijuplay/Pods-meijuplay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meijuplay/Pods-meijuplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85010F32753172600222F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F3D733277EE61E00CBBE28 /* MWPlayerView.swift in Sources */,
+				483ADFC627759BAA008A37C9 /* MeiJuAboutHeaderView.swift in Sources */,
+				D85011282753421600222F73 /* MeiJuHomeView.swift in Sources */,
+				483ADFF42779B4A2008A37C9 /* MWAPIManager.swift in Sources */,
+				48B83F14276B49DA008C889D /* MeiJuSetView.swift in Sources */,
+				48D0BD872760A1EF00F6FFB9 /* UIColor_Extensions.swift in Sources */,
+				483ADFED27798BC7008A37C9 /* MWDataBase.swift in Sources */,
+				483ADFF62779B5B5008A37C9 /* MWNetworkLogger.swift in Sources */,
+				483ADFAF27746D4F008A37C9 /* MeiJuSearchContentView.swift in Sources */,
+				483ADFF2277998A8008A37C9 /* MeiJuDB.swift in Sources */,
+				482D580A276C837C00575106 /* MeiJuSetCell.swift in Sources */,
+				D850112C2753440000222F73 /* MeiJuMineVC.swift in Sources */,
+				48C8E6A7277315B9009333A5 /* MeiJuEpisodeSeasonItem.swift in Sources */,
+				48D0BD8327609D7F00F6FFB9 /* MeiJuHomeSingleCircleView.swift in Sources */,
+				48A0B70027C86A63001B81F1 /* MWDevOtherAppsModule.swift in Sources */,
+				48C8E6952771D5CD009333A5 /* MeiJuFuncItem.swift in Sources */,
+				483ADFE82775C6A7008A37C9 /* PrivacyAlertView.swift in Sources */,
+				48C8E689277076A6009333A5 /* MeiJuListView.swift in Sources */,
+				483ADFBB277569C3008A37C9 /* MeiJuSearchContentViewModule.swift in Sources */,
+				48B83F04276B05E6008C889D /* MWPlayerVC.swift in Sources */,
+				48B83F0A276B2027008C889D /* MWPlayerUtil.swift in Sources */,
+				483ADFAD27746D01008A37C9 /* MeiJuSearchBarView.swift in Sources */,
+				48D0BD81276094AF00F6FFB9 /* ProjectConsts.swift in Sources */,
+				483ADFE62775C386008A37C9 /* MeiJuPrivacyVC.swift in Sources */,
+				483ADFEF27798CEF008A37C9 /* MeiJuDBItem.swift in Sources */,
+				48C8E6A527731599009333A5 /* MeiJuEpisodeSeasonModule.swift in Sources */,
+				483ADFB527747FAC008A37C9 /* MeiJuSearchBarViewModule.swift in Sources */,
+				48C8E6AD27741D9C009333A5 /* EpisodeSeasonPlayView.swift in Sources */,
+				48D0BD5B275F533400F6FFB9 /* MeiJuRequest.swift in Sources */,
+				48C8E6A1277314E8009333A5 /* MeiJuEpisodeSeasonVC.swift in Sources */,
+				48D0BD8527609F4B00F6FFB9 /* UIFont_Extensions.swift in Sources */,
+				483ADFB3277472A4008A37C9 /* MeiJuSearchResItem.swift in Sources */,
+				48C8E68B2770776E009333A5 /* MeiJuListModule.swift in Sources */,
+				483ADFFE2779C1E9008A37C9 /* MeiJuAPIManager.swift in Sources */,
+				483ADFFA2779BA7F008A37C9 /* MWNetworkReachability.swift in Sources */,
+				48D0BD7E276092E500F6FFB9 /* UIKit_Extensions.swift in Sources */,
+				48A0B6FE27C86A50001B81F1 /* MWDevOtherAppsVC.swift in Sources */,
+				D850112E2753449600222F73 /* MeiJuHotSearchVC.swift in Sources */,
+				48D0BD64275F609200F6FFB9 /* MeiJuHomeCell.swift in Sources */,
+				48B83F1A276B4A29008C889D /* MeiJuSetItem.swift in Sources */,
+				48B83F11276B49BC008C889D /* MeiJuSetController.swift in Sources */,
+				48C8E6AB277413A0009333A5 /* MeiJuEpisodePlayModule.swift in Sources */,
+				483ADFFC2779BFBB008A37C9 /* MeiJuRouter.swift in Sources */,
+				483ADFF82779B7B7008A37C9 /* MWRequestInterceptor.swift in Sources */,
+				483ADFB727755FBF008A37C9 /* String_Extensions.swift in Sources */,
+				48C8E6A927732224009333A5 /* EpisodeSeasonSubview.swift in Sources */,
+				48B83F07276B1F3A008C889D /* MWNavigationController.swift in Sources */,
+				48C8E69F2772C5C1009333A5 /* MeiJuListCustomNavView.swift in Sources */,
+				48A0B70427C86A89001B81F1 /* MWDevOtherAppsCell.swift in Sources */,
+				48D0BD62275F5BAD00F6FFB9 /* MeiJuHomeResItem.swift in Sources */,
+				48D0BD66275F60D400F6FFB9 /* MeiJuHomeHeaderView.swift in Sources */,
+				483ADFC227759B78008A37C9 /* MeiJuAboutVC.swift in Sources */,
+				48C0E3D127842D4D00884931 /* MWPlayer.swift in Sources */,
+				48C8E6872770769B009333A5 /* MeiJuListVC.swift in Sources */,
+				48C8E68D2771CD6F009333A5 /* MeiJuListHeaderView.swift in Sources */,
+				48A0B70227C86A79001B81F1 /* MWDevOtherAppsView.swift in Sources */,
+				D85010FB2753172600222F73 /* AppDelegate.swift in Sources */,
+				483ADFB127746E1F008A37C9 /* MeiJuSearchSuggestView.swift in Sources */,
+				D8501120275326C500222F73 /* MeiJuHomeVC.swift in Sources */,
+				48B83F0D276B2064008C889D /* MeiJuMediaItem.swift in Sources */,
+				4812B045278B2718007B5A91 /* MeiJuSetHeaderView.swift in Sources */,
+				48765B0A2767520700057A1A /* MeiJuHomeModule.swift in Sources */,
+				483ADFCA2775A456008A37C9 /* MeiJuAboutCell.swift in Sources */,
+				48C8E69D2772BD9D009333A5 /* UIViewController_Extensions.swift in Sources */,
+				483ADFEA2775CBC3008A37C9 /* PrivacyAlertViewModule.swift in Sources */,
+				D85011122753262200222F73 /* MWBaseViewController.swift in Sources */,
+				48A0B70627C86C6D001B81F1 /* MWDevOtherAppsItem.swift in Sources */,
+				483ADFCC2775AB85008A37C9 /* MeiJuAboutViewModule.swift in Sources */,
+				48C8E6972771D775009333A5 /* MeiJuLeftFuncCell.swift in Sources */,
+				483ADFC427759B9C008A37C9 /* MeiJuAboutView.swift in Sources */,
+				4812B047278BC66E007B5A91 /* MeiJuListDBItem.swift in Sources */,
+				48C8E69B2771E467009333A5 /* MeiJuLeftFunModule.swift in Sources */,
+				48F3D736277EE99500CBBE28 /* MWPlayerViewModule.swift in Sources */,
+				48B83F17276B49F0008C889D /* MeiJuSetModule.swift in Sources */,
+				483ADFC827759DEC008A37C9 /* MeiJuAboutItem.swift in Sources */,
+				48765B0727674CCD00057A1A /* MeiJuHomeCircleHeader.swift in Sources */,
+				48C8E6922771D138009333A5 /* MeiJuLeftFuncView.swift in Sources */,
+				483ADFB9277562F9008A37C9 /* MeiJuSearchSuggestViewModule.swift in Sources */,
+				D8501134275344D900222F73 /* MeiJuSearchVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D85011052753172900222F73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85011062753172900222F73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85011092753172900222F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D850110A2753172900222F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D850110C2753172900222F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32293E6EF82BFB0C2A119C4 /* Pods-meijuplay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = M88583872C;
+				INFOPLIST_FILE = meijuplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morganwang.buzhimeiju;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = morganwangWildcard_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D850110D2753172900222F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3E660BAFA8D7D48F835E9A /* Pods-meijuplay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = M88583872C;
+				INFOPLIST_FILE = meijuplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morganwang.buzhimeiju;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = morganwangWildcard_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85010F22753172600222F73 /* Build configuration list for PBXProject "meijuplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85011092753172900222F73 /* Debug */,
+				D850110A2753172900222F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D850110B2753172900222F73 /* Build configuration list for PBXNativeTarget "meijuplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D850110C2753172900222F73 /* Debug */,
+				D850110D2753172900222F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85010EF2753172600222F73 /* Project object */;
+}
